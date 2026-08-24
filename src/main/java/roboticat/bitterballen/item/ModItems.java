@@ -24,7 +24,7 @@ public class ModItems {
             .nutrition(1)
             .saturationModifier(0.0F)
             .build())));
-
+    public static final Item BREADCRUMBS = registerItem("breadcrumbs", Item::new);
 
     private static Item registerItem(String name, Function<Item.Properties, Item> function) {
 
@@ -39,6 +39,7 @@ public class ModItems {
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FOOD_AND_DRINKS).register(output -> {
             output.accept(BITTERBALLEN);
             output.accept(RAWBITTERBALLEN);
+            output.accept(BREADCRUMBS);
         } );
 
 

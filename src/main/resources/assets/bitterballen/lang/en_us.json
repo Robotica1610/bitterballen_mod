@@ -1,8 +1,9 @@
 {
-  "item.bitterballen.bitterballen": "Bitterballen",
-  "item.bitterballen.raw_bitterballen": "Raw Bitterballen",
-  "tag.item.bitterballen.ingredients.vegetables": "Bitterballen Vegetables",
-  "tag.item.bitterballen.ingredients.raw_meats": "Bitterballen Raw Meats",
-  "tag.item.bitterballen.ingredients.flour_or_wheat": "Bitterballen Flour or Wheat"
+  "item.bitterballen.bitterballen": "Bitterballs",
+  "item.bitterballen.raw_bitterballen": "Raw Bitterballs",
+  "tag.item.bitterballen.ingredients.vegetables": "Bitterballs Vegetables",
+  "tag.item.bitterballen.ingredients.raw_meats": "Bitterballs Raw Meats",
+  "tag.item.bitterballen.ingredients.flour_or_wheat": "Bitterballs Flour or Wheat",
+  "item.bitterballen.breadcrumbs": "Bread Crumbs"
 
 }
