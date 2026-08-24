@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:wheat",
+    {
+      "id": "#c:foods/flour",
+      "required": false
+    },
+    {
+      "id": "#c:foods/dough/wheat",
+      "required": false
+    }
+  ]
+}

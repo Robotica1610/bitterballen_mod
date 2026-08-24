@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#bitterballen:ingredients/vegetables",
+    "#bitterballen:ingredients/raw_meats",
+    "#bitterballen:ingredients/flour_or_wheat"
+  ],
+  "result": {
+    "id": "bitterballen:raw_bitterballen"
+  }
+}
