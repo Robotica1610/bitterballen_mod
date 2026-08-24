@@ -16,11 +16,20 @@ import java.util.function.Function;
 public class ModItems {
 
     public static final Item BITTERBALLEN = registerItem("bitterballen", properties -> new Item(properties.food(new FoodProperties.Builder()
-            .nutrition(5)
-            .saturationModifier(3.0F)
+            .nutrition(3)
+            .saturationModifier(2.5F)
             .build())));
 
     public static final Item RAWBITTERBALLEN = registerItem("raw_bitterballen", properties -> new Item(properties.food(new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationModifier(0.0F)
+            .build())));
+    public static final Item FRIKANDEL = registerItem("frikandel", properties -> new Item(properties.food(new FoodProperties.Builder()
+            .nutrition(6)
+            .saturationModifier(4.0F)
+            .build())));
+
+    public static final Item RAWFRIKANDEL = registerItem("raw_frikandel", properties -> new Item(properties.food(new FoodProperties.Builder()
             .nutrition(1)
             .saturationModifier(0.0F)
             .build())));
@@ -39,6 +48,8 @@ public class ModItems {
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FOOD_AND_DRINKS).register(output -> {
             output.accept(BITTERBALLEN);
             output.accept(RAWBITTERBALLEN);
+            output.accept(FRIKANDEL);
+            output.accept(RAWFRIKANDEL);
             output.accept(BREADCRUMBS);
         } );
 

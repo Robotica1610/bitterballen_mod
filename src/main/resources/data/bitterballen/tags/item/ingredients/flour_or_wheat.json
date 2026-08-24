@@ -1,12 +1,8 @@
 {
   "values": [
-    "minecraft:wheat",
+    "bitterballen:breadcrumbs",
     {
       "id": "#c:foods/flour",
-      "required": false
-    },
-    {
-      "id": "#c:foods/dough/wheat",
       "required": false
     }
   ]

@@ -21,6 +21,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateFlatItem(ModItems.BITTERBALLEN, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.RAWBITTERBALLEN, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.BREADCRUMBS, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.FRIKANDEL, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.RAWFRIKANDEL, ModelTemplates.FLAT_ITEM);
     }
 
     @Override
